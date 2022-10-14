@@ -3,8 +3,8 @@ from collections import defaultdict
 
 import torch.nn as nn
 
-from utils.parse_config import *
-from utils.utils import *
+from RealtimeConeDetection.utils.parse_config import *
+from RealtimeConeDetection.utils.utils import *
 
 ONNX_EXPORT = False
 

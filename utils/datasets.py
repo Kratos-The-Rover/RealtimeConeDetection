@@ -8,7 +8,7 @@ import numpy as np
 import torch
 
 # from torch.utils.data import Dataset
-from utils.utils import xyxy2xywh
+from RealtimeConeDetection.utils.utils import xyxy2xywh
 
 
 class LoadImages:  # for inference

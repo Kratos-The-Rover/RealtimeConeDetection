@@ -7,7 +7,7 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 
-from utils import torch_utils
+from RealtimeConeDetection.utils import torch_utils
 
 # Set printoptions
 torch.set_printoptions(linewidth=1320, precision=5, profile='long')

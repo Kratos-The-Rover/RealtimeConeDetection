@@ -4,9 +4,9 @@ import time
 from pathlib import Path
 from sys import platform
 
-from models import *
-from utils.datasets import *
-from utils.utils import *
+from RealtimeConeDetection.models import *
+from RealtimeConeDetection.utils.datasets import *
+from RealtimeConeDetection.utils.utils import *
 
 
 def detect(

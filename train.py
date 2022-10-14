@@ -1,10 +1,10 @@
 import argparse
 import time
 
-import detect  # Import detect.py to get mAP after each epoch
-from models import *
-from utils.datasets import *
-from utils.utils import *
+import RealtimeConeDetection.detect  # Import detect.py to get mAP after each epoch
+from RealtimeConeDetection.models import *
+from RealtimeConeDetection.utils.datasets import *
+from RealtimeConeDetection.utils.utils import *
 
 
 def train(
